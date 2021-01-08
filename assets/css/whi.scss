@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+// colours
+$primary-dark: #222;
+$primary-mid: #666666;
+$primary-light: #FFF;
+
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+
+body {
+	background: $primary-dark;
+	color: $primary-light;
+	font-family: $open-sans;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 1.4;
+	margin: 0;
+}
+
+a, a:hover {
+	color: inherit;
+}
+
+h1 {
+	font-family: $raleway;
+}
+
+.header {
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+.menu {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.footer {
+	margin-top: 12rem;
+}
