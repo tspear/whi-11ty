@@ -4,9 +4,7 @@ title: Home
 ---
 # WHI Recordings
 
-Thanks for all your support in 2020
-
-[Read the 2020 Roundup](blog/whi-recordings-2020-roundup)
+[Read the Blog](blog/)
 
 ### Find us on
 

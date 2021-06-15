@@ -1,6 +1,6 @@
 ---
 layout: layout
-title: Blog - WHI Recordings
+title: WHI Recordings 2020 roundup
 ---
 
 # WHI Recordings 2020 roundup
