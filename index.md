@@ -2,7 +2,11 @@
 layout: layout
 title: Home
 ---
-# WHI Recordings
+<h1 class="hidden">WHI Recordings</h1>
+
+## Latest release
+
+<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=572998409/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://whirecordings.bandcamp.com/album/the-closed-circuit">The Closed Circuit by Secret Nuclear</a></iframe>
 
 [Read the Blog](blog/)
 
