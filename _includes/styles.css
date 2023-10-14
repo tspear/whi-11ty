@@ -9,13 +9,36 @@ body {
   margin: 0;
 }
 
-a, a:hover {
-  color: inherit;
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #aaa;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-position: under;
+}
+
+a:hover {
+  color: #fff;
+}
+
+h1,h2,h3 {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1.4rem
 }
 
 h1 {
-  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
 }
+
+li {
+    list-style: square inside url('list.png');
+    margin-bottom: 1em;
+}
+
 
 .header {
   margin-top: 2rem;
