@@ -7,30 +7,11 @@
 	<meta name="description" content="New desc" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<!-- Place favicon.ico in the root directory -->
-	{# <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet"> #}
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-<link href="/assets/css/whi.css" rel="stylesheet">
 	<style>
-		p {
-			margin-bottom: 1.6rem;
-		}
-
-		a {
-			color: #aaa;
-			text-decoration-line: underline;
-			text-decoration-style: dotted;
-			text-underline-position: under;
-		}
+	 {% include "styles.css" %}
 	</style>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135674-3"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-135674-3');
-	</script>
+	{% include "ga.html" %}
 </head>
 <body>
 	<div class="container mx-auto px-4">
